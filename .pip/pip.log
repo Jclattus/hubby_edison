@@ -1,0 +1,25 @@
+Downloading/unpacking pybliez
+
+  Getting page https://pypi.python.org/simple/pybliez/
+  Could not fetch URL https://pypi.python.org/simple/pybliez/: HTTP Error 404: Not Found (pybliez does not exist)
+  Will skip URL https://pypi.python.org/simple/pybliez/ when looking for download links for pybliez
+  Getting page https://pypi.python.org/simple/
+Operation cancelled by user
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/pip/basecommand.py", line 139, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/site-packages/pip/commands/install.py", line 266, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/site-packages/pip/req.py", line 1026, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 127, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req) or req.url_name
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 225, in _find_url_name
+    for link in page.links:
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 552, in links
+    url = self.clean_link(urlparse.urljoin(self.base_url, url))
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 540, in base_url
+    match = self._base_re.search(self.content)
+KeyboardInterrupt

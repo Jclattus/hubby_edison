@@ -1,0 +1,7 @@
+{
+  "name":"",
+  "whitelist":[],
+  "startUp":{
+  	"runApp" : false
+  }
+}
