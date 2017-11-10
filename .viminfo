@@ -41,21 +41,22 @@
 	2
 
 # File marks:
-'0  2  35  /etc/init.d/startpython
-'1  41  12  /home/programa/main.py
-'2  43  99  /home/programa/main.py
-'3  15  16  ~/node/index.js
-'4  40  23  /home/programa/main.py
-'5  52  28  ~/node/index.js
-'6  1  16  ~/node/index.js
-'7  5  16  ~/Intel-Edison-BLE-Sensor-Device-master/pruebastdin.py
-'8  2  10  ~/Intel-Edison-BLE-Sensor-Device-master/pruebastdin.py
-'9  1  8  ~/Intel-Edison-BLE-Sensor-Device-master/pruebastdin.py
+'0  21  33  /home/programa/main.py
+'1  2  35  /etc/init.d/startpython
+'2  41  12  /home/programa/main.py
+'3  43  99  /home/programa/main.py
+'4  15  16  ~/node/index.js
+'5  40  23  /home/programa/main.py
+'6  52  28  ~/node/index.js
+'7  1  16  ~/node/index.js
+'8  5  16  ~/Intel-Edison-BLE-Sensor-Device-master/pruebastdin.py
+'9  2  10  ~/Intel-Edison-BLE-Sensor-Device-master/pruebastdin.py
 
 # Jumplist (newest first):
+-'  21  33  /home/programa/main.py
+-'  41  12  /home/programa/main.py
 -'  2  35  /etc/init.d/startpython
 -'  1  0  /etc/init.d/startpython
--'  41  12  /home/programa/main.py
 -'  43  99  /home/programa/main.py
 -'  40  23  /home/programa/main.py
 -'  15  16  ~/node/index.js
@@ -150,19 +151,11 @@
 -'  3  17  ~/blue.sh
 -'  1  0  ~/blue.sh
 -'  3  55  /etc/opkg/base-feeds.conf
--'  1  0  /etc/opkg/base-feeds.conf
--'  2  55  src/gz
 
 # History of marks within files (newest to oldest):
 
-> /etc/init.d/startpython
-	"	2	35
-	^	2	36
-	.	2	35
-	+	2	35
-
 > /home/programa/main.py
-	"	41	12
+	"	21	33
 	^	43	100
 	.	43	100
 	+	38	75
@@ -219,6 +212,12 @@
 	+	37	22
 	+	40	23
 	+	43	100
+
+> /etc/init.d/startpython
+	"	2	35
+	^	2	36
+	.	2	35
+	+	2	35
 
 > ~/node/index.js
 	"	15	16

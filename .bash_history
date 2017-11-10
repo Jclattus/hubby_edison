@@ -1,27 +1,5 @@
 node index.js
 node index.js
-node idex.js
-node index.js
-reboot
-reboot 
-ls7
-ls
-ps | grep node
-ls
-cd Intel-Edison-BLE-Sensor-Device-master/
-ls
-vim temperature-characteristic.js
-node index.js 
-node index.js
-reboot
-ls
-cd Intel-Edison-BLE-Sensor-Device-master/
-ls
-more index.js 
-ls
-cd Intel-Edison-BLE-Sensor-Device-master/
-node index.js
-node index.js
 node index.js
 node index.js
 node index.js
@@ -498,3 +476,25 @@ ps
 ps  | grep node
 ps  | grep main.py
 reboot 
+ps -a
+ps a
+ps 
+ps | grep main.py
+ls
+cd /home/programa
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd /home
+ls
+cd /root
+ls
+cd /home/programa
+ls
+vim main.py
